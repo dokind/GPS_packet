@@ -9,15 +9,16 @@ namespace GPS
             /// TODO
             // 1. initialize properties 
             header = packet[0..2];
-          
+
             length = packet[2..4];
-        
+
             unitCode = packet[4..16];
-          
+
             eventCode = packet[16..18];
             eventData = packet[..];
             crcSum = packet[..];
             tail = packet[(packet.Length - 1)..packet.Length];
+
 
 
         }
@@ -29,9 +30,9 @@ namespace GPS
         //PacketLength no more than 1024bytes
         public byte[] length = new byte[2];
 
-        
+
         //12 byte ASCII character;
-        public byte[]  unitCode;
+        public byte[] unitCode;
 
         //Eventcode
         public byte[] eventCode = new byte[2];
@@ -47,7 +48,7 @@ namespace GPS
 
         public bool istrue;
 
-       bool check_packet(byte[] packet)
+        bool check_packet(byte[] packet)
         {
             /// TODO
 
