@@ -1,22 +1,22 @@
 ﻿<Properties StartupConfiguration="{4A77D4FE-3716-4189-93CC-2F00E5891A19}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GPS/GPS_Packet.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GPS/Program.cs">
     <Files>
-      <File FileName="GPS/Program.cs" Line="1" Column="1" />
-      <File FileName="GPS/GPS_Packet.cs" Line="32" Column="1" />
+      <File FileName="GPS/Program.cs" Line="14" Column="39" />
+      <File FileName="GPS/GPS_Packet.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GPS" expanded="True">
             <Node name="GPS" expanded="True">
-              <Node name="GPS_Packet.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.GPS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.GPS PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,0 +1,13 @@
+/Users/dokind/windows_programming/GPS/GPS/obj/Debug/netcoreapp3.1/GPS.csproj.AssemblyReference.cache
+/Users/dokind/windows_programming/GPS/GPS/obj/Debug/netcoreapp3.1/GPS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dokind/windows_programming/GPS/GPS/obj/Debug/netcoreapp3.1/GPS.AssemblyInfoInputs.cache
+/Users/dokind/windows_programming/GPS/GPS/obj/Debug/netcoreapp3.1/GPS.AssemblyInfo.cs
+/Users/dokind/windows_programming/GPS/GPS/obj/Debug/netcoreapp3.1/GPS.csproj.CoreCompileInputs.cache
+/Users/dokind/windows_programming/GPS/GPS/bin/Debug/netcoreapp3.1/GPS.deps.json
+/Users/dokind/windows_programming/GPS/GPS/bin/Debug/netcoreapp3.1/GPS.runtimeconfig.json
+/Users/dokind/windows_programming/GPS/GPS/bin/Debug/netcoreapp3.1/GPS.runtimeconfig.dev.json
+/Users/dokind/windows_programming/GPS/GPS/bin/Debug/netcoreapp3.1/GPS.dll
+/Users/dokind/windows_programming/GPS/GPS/bin/Debug/netcoreapp3.1/GPS.pdb
+/Users/dokind/windows_programming/GPS/GPS/obj/Debug/netcoreapp3.1/GPS.dll
+/Users/dokind/windows_programming/GPS/GPS/obj/Debug/netcoreapp3.1/GPS.pdb
+/Users/dokind/windows_programming/GPS/GPS/obj/Debug/netcoreapp3.1/GPS.genruntimeconfig.cache

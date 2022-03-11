@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/dokind/.dotnet/store/|arch|/|tfm|",
+      "/Users/dokind/.nuget/packages"
+    ]
+  }
+}
