@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{4A77D4FE-3716-4189-93CC-2F00E5891A19}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GPS/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GPS/GPS_Packet.cs">
     <Files>
-      <File FileName="GPS/Program.cs" Line="14" Column="39" />
-      <File FileName="GPS/GPS_Packet.cs" />
+      <File FileName="GPS/Program.cs" Line="22" Column="1" />
+      <File FileName="GPS/GPS_Packet.cs" Line="64" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GPS" expanded="True">
             <Node name="GPS" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="GPS_Packet.cs" selected="True" />
             </Node>
           </Node>
         </State>

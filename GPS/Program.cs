@@ -9,14 +9,14 @@ namespace GPS
         static void Main(string[] args)
         {
             String hexString = "404056003247512d31363031303633380110060a130a2a080f3e40440a7089e616cf005004d03101010505050006000101000018a5a6a7a8a9aaf2adaeafb0b16162636465666768696a6b6c060a130a2a0753e80d0a";
+
             // converting string to byte array
             byte[] packet = ConvertHexStringToByteArray(hexString);
-            foreach(var a in packet)
-            {
-                Console.Write(a);
-            }
+
             // create new GPS_Packet object
             GPS_Packet gps = new GPS_Packet(packet);
+
+            // DISPLAYING DATA HERE
             Console.WriteLine(gps.check_packet(packet));
         }
 

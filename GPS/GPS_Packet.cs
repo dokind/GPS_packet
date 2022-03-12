@@ -63,11 +63,35 @@ namespace GPS
             
 ;            // 1.   check header and tail #condition 1
              // condition 1 is done 
-            if (ByteArrayToString(header) == "4040" && ByteArrayToString(tail) == "0D0A")
+            if (ByteArrayToString(header) == "4040")
             {
+                // 2.   check packet length and packet[length - 2] == tail #condition 2
+                if (length <= 1024&&packet.Length==length) {
+                    Console.WriteLine("Packet length is matching!");
+                    //byte[] byteArray = new byte[1];
+                    //byte[] tailElement1 =  AddByteToArray(byteArray,packet[length-2]);
+                    //byte[] tailElement2 = AddByteToArray(byteArray, packet[length - 1]);
+                    //var tail1 = ByteArrayToString(tailElement1);
+                    //var tail2 = ByteArrayToString(tailElement2);
 
-               
-                return true;
+                    if (tail[0] ==13&&tail[1]==10)
+                    {                       
+                        Console.WriteLine("tails are matching");
+
+                        // 3. if #condition 1,2 true then check CRC
+                        if (true) {
+                            Console.WriteLine(crcSum);
+                            
+                            //byte[] crc= AddByteToArray(newArray, packet[length - 4]);
+                            //var element = ByteArrayToString(crc);
+                            //Console.WriteLine("element");
+                            //Console.WriteLine(element);
+                        }
+                        return true;
+                    }
+                }
+                return false;
+
             }
             else
             {
@@ -80,20 +104,28 @@ namespace GPS
 
 
 
-            // 2.   check packet length and packet[length - 2] == tail #condition 2
+          
 
-            // 3. if #condition 1,2 true then check CRC
-
-
+            
 
 
 
+
+
+        }
+        public byte[] AddByteToArray(byte[] bArray, byte newByte)
+        {
+            byte[] newArray = new byte[bArray.Length + 1];
+            bArray.CopyTo(newArray, 1);
+            newArray[0] = newByte;
+            return newArray;
         }
         public static string ByteArrayToString(byte[] ba)
         {
             return BitConverter.ToString(ba).Replace("-", "");
         }
-
         
+
+
     }
 }
